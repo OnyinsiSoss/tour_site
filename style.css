@@ -28,7 +28,7 @@
 	background-color: #001202;
 	transition: transform .4s;
 	width: 100%;
-	position: fixed;
+	position: relative;
 
 }
 
@@ -86,18 +86,6 @@ span {
 	height: 90%;
 }
 
-
-.homepage-content {
-	color: #ffffff;
-	top: 50%;
-}
-
-.homepage-content p {
-	font-size: 20px;
-	margin-bottom: 25px;
-	width: 900px;
-}
-
 .homepage h1 {
 	font-size: 50px;
 }
@@ -105,14 +93,14 @@ span {
 .homepage-content h1 {
 	font-size: 55px;
 	text-transform: capitalize;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	text-align: left;
-	color: #000000;
+	color: #001202;
 
 }
 
 .homepage-content h2 {
-	color: #000000;
+	color: #263a3e;
 	font-size: 25px;
 	text-transform: capitalize;
 	text-align: right;
@@ -124,6 +112,7 @@ span {
 	box-sizing: border-box;
 	width: 100%;
 	background-color: #001202;
+	margin-bottom: 30px;
 
 }
 
@@ -154,9 +143,9 @@ span {
 	margin-bottom: 60px;
 }
 
-.about-text.btn {
+.about-btn {
 	margin-bottom: 60px;
-	align-content: center;
+	justify-content: space-around;
 }
 
 .hero {
@@ -202,7 +191,7 @@ h1 {
 	color: #001202;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 15px;
+	font-size: 20px;
 	margin-bottom: 45px;
 }
 
