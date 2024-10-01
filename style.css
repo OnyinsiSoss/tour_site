@@ -49,6 +49,7 @@ span {
 	font-size: 15px;
 	transition: transform .4s;
 	justify-content: space-between;
+	text-transform: uppercase;
 	padding: 10px;
 	margin: 20px;
 	text-decoration: none;
@@ -97,13 +98,14 @@ span {
 	text-align: left;
 	color: #001202;
 
+
 }
 
 .homepage-content h2 {
-	color: #263a3e;
+	color: #001202;
 	font-size: 25px;
 	text-transform: capitalize;
-	text-align: right;
+	text-align: left;
 }
 
 .about {
