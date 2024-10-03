@@ -26,9 +26,9 @@
 	align-items: center;
 	justify-content: space-between;
 	background-color: #001202;
-	transition: transform .4s;
+	transition: 1s;
 	width: 100%;
-	position: relative;
+	position:fixed;
 
 }
 
