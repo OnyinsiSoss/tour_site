@@ -210,5 +210,58 @@ h1 {
 	box-sizing: border-box;
 	width: 100%;
 	background-color: #d09800;
+}
 
+.footer {
+	background-color: #001202;
+	color: #263a3e;
+	padding-top: 50px;
+}
+
+.footer-container {
+	padding-bottom: 30px;
+}
+
+.contacts {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.contacts-tel {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #d09800;
+	font-size: 35px;
+}
+
+.contacts p {
+	font-size: large;
+	padding-bottom: 5px;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	color: #d09800;
+}
+
+.social a {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: #001202;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.social a:hover {
+	transform: scale(1.3);
+	transition: .5s;
 }
