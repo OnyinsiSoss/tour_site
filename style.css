@@ -10,7 +10,7 @@
 .home {
 	height: 100vh;
 	width: 100%;
-	background-image: url(img/pic-66.webp);
+	background-image: url(img/elephants-1.jpeg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -28,12 +28,13 @@
 	background-color: #001202;
 	transition: 1s;
 	width: 100%;
-	position:fixed;
+	position: fixed;
+	z-index: 1;
 
 }
 
 span {
-	color: #d09800;
+	color: #fff;
 }
 
 .header .logo {
@@ -79,31 +80,38 @@ span {
 
 .homepage {
 	display: flex;
-	align-items: center;
+	align-items: left;
 	flex-direction: column;
-	justify-content: center;
 	text-align: center;
-	width: 100%;
-	height: 90%;
+	width: 70%;
+	height: 70%;
+	margin-left: 100px;
 }
 
-.homepage h1 {
-	font-size: 50px;
+.homepage-content{
+    transform: translateY(100px);
+
 }
 
 .homepage-content h1 {
-	font-size: 55px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
+	font-size: 80px;
+	margin-bottom: 10px;
 	text-align: left;
 	color: #001202;
-
-
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	font-family: "Open Sans", sans-serif;
+	align-content:center;
+	font-weight: 500;
+    line-height: 68px;
 }
 
 .homepage-content h2 {
 	color: #001202;
-	font-size: 25px;
+	font-size: 35px;
+	font-weight: 500;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	font-family: "Open Sans", sans-serif;
 	text-transform: capitalize;
 	text-align: left;
 }
@@ -115,7 +123,6 @@ span {
 	width: 100%;
 	background-color: #001202;
 	margin-bottom: 30px;
-
 }
 
 .main {
@@ -126,7 +133,6 @@ span {
 	align-items: center;
 	justify-content: space-around;
 	padding-bottom: 25px;
-
 }
 
 .about-text h1 {
@@ -167,14 +173,12 @@ h1 {
 	margin-top: 75px;
 	margin-bottom: 75px;
 	text-align: center;
-
 }
 
 .service {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
 }
 
 .service img {
@@ -183,10 +187,8 @@ h1 {
 }
 
 
-
 .service-text {
 	width: 650px;
-
 }
 
 .service-text p {
